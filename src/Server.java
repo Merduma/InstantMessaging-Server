@@ -23,7 +23,7 @@ public class Server extends JFrame{
 				new ActionListener(){
 					public void actionPerformed(ActionEvent event){
 						sendMessage(event.getActionCommand());//hit enter and send
-						//set user text to NULL after send
+						//clear user textInput
 						userText.setText("");						
 					}
 				}
